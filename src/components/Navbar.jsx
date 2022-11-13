@@ -5,7 +5,7 @@ import { NavAvatar } from "./NavAvatar";
 export const Navbar = () => {
   return (
     <div className=" flex flex-col bg-slate-500 px-4 py-8 min-h-screen">
-      <div className="flex flex-col sm:flex-row justify-center items-center w-96">
+      <div className="flex flex-col justify-center items-center w-72">
         <NavAvatar/>
       </div>
       <div className="flex flex-col">
