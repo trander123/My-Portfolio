@@ -19,7 +19,7 @@ export const Header = () => {
     setIsHidden(!isHidden);
   };
   return (
-    <div className="flex justify-between ">
+    <div className="flex justify-between w-full h-1/6">
       <Menu fontSize="large" onClick={toggleNavBar} />
       {isDark ? (
         <LightMode fontSize="large" onClick={toggleTheme} />
