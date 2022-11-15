@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-4/6">
+    <div className="flex flex-col justify-center items-center h-5/6">
       <div className="flex flex-col justify-center items-center space-y-2">
         <span className=" font-bold text-xl">HELLO THERE !</span>
         <span className=" font-light text-xs">GREETINGS FROM</span>
