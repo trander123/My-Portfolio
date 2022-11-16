@@ -14,7 +14,7 @@ export const Home = () => {
       </div>
       <div className="mt-10">
         <Link
-          to="/portoflio"
+          to="/portfolio"
           className=" bg-gradient-to-tl from-blue-700 via-blue-400 to-blue-700 dark:from-blue-900 dark:via-blue-600 dark:to-blue-900 font-bold text-white px-4 py-2 rounded-md hover:opacity-80 text-lg"
         >
           See my works
