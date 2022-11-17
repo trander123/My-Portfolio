@@ -3,28 +3,49 @@
     "projName": "TODO",
     "description": "A responsive web app to add your todos mark them completed, remove or filter them depending on their status and can also clear all completed tasks.",
     "link": "",
-    "technologies": "REACTJS, TailwindCSS",
-    "imgUrl":"./images/todo-app.png"
+    "technologies": ["reactjs", "js", "tailwindcss"],
+    "imgUrl": "./images/todo-app.png"
   },
   {
     "projName": "IP TRACKER",
     "description": "Queries empty IP by default and API returns your own IP address and some other informations, longgitude, latitude, etc.",
     "link": "",
-    "technologies": "HTML, CSS, JS",
+    "technologies": ["html", "css", "js"],
     "imgUrl": "./images/ip-tracker.png"
   },
   {
-    "projName": "COUNTDOWN WEB APP",
+    "projName": "COUNTDOWN",
     "description": "A static countdown app. Possible update on making it a dynamic web app.",
     "link": "",
-    "technologies": "HTML, CSS, JS",
+    "technologies": ["html", "css", "js"],
     "imgUrl": "./images/countdown.png"
   },
   {
     "projName": "FORM WIZARD",
     "description": "An insurance multi step form wizard with dynamic functionalities.",
     "link": "",
-    "technologies": "HTML, CSS, JS",
+    "technologies": ["reactjs", "js", "tailwindcss"],
     "imgUrl": "./images/wizard-form.png"
+  },
+  {
+    "projName": "Credit Card",
+    "description": "A credit card with simple validations.",
+    "link": "",
+    "technologies": ["html", "css", "js"],
+    "imgUrl": "./images/credit-card.png"
+  },
+  {
+    "projName": "Anonymouse Landing Page",
+    "description": "A simple Landing page to test my CSS skills way back then.",
+    "link": "",
+    "technologies": ["html", "css"],
+    "imgUrl": "./images/anon-landing-page.png"
+  },
+  {
+    "projName": "Sorting Articles",
+    "description": "Sorts list of datas by upvotes or date and vice versa",
+    "link": "",
+    "technologies": ["reactjs", "js"],
+    "imgUrl": "./images/sorting-articles.png"
   }
 ]

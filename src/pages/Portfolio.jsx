@@ -9,12 +9,17 @@ export const Portfolio = () => {
         {datas.map((d, i) => (
           <div
             key={i}
-            className=" flex flex-col items-center px-4 py-6 bg-gray-200 rounded-md dark:bg-zinc-800 ease-in-out duration-150 hover:scale-105"
+            className=" flex flex-col items-center px-4 py-6 bg-slate-200 rounded-md dark:bg-zinc-800 ease-in-out duration-150 hover:scale-105 max-w-xs"
           >
             <img src={d.imgUrl} alt="" className=" w-full" />
+            <div className="flex space-x-2 mt-4">
+              {d.technologies.map((e, i) => (
+                <div className=" w-10 h-10 p-2 rounded-full bg-white dark:bg-zinc-900 flex justify-center items-center"><img src={`./icons/${e}-icon.png`} alt="" /></div>
+              ))}
+            </div>
             <div className="flex flex-col mt-4">
-              <span>Name: {d.projName}</span>
-              <span>description: {d.description}</span>
+              <span className=" font-bold">{d.projName}</span>
+              <span>{d.description}</span>
             </div>
           </div>
         ))}
