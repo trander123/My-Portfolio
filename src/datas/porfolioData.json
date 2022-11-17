@@ -4,27 +4,27 @@
     "description": "A responsive web app to add your todos mark them completed, remove or filter them depending on their status and can also clear all completed tasks.",
     "link": "",
     "technologies": "REACTJS, TailwindCSS",
-    "imgUrl":"./images/avatar.jpg"
+    "imgUrl":"./images/todo-app.png"
   },
   {
     "projName": "IP TRACKER",
     "description": "Queries empty IP by default and API returns your own IP address and some other informations, longgitude, latitude, etc.",
     "link": "",
     "technologies": "HTML, CSS, JS",
-    "imgUrl": "./images/avatar.jpg"
+    "imgUrl": "./images/ip-tracker.png"
   },
   {
     "projName": "COUNTDOWN WEB APP",
     "description": "A static countdown app. Possible update on making it a dynamic web app.",
     "link": "",
     "technologies": "HTML, CSS, JS",
-    "imgUrl": "./images/avatar.jpg"
+    "imgUrl": "./images/countdown.png"
   },
   {
     "projName": "FORM WIZARD",
     "description": "An insurance multi step form wizard with dynamic functionalities.",
     "link": "",
     "technologies": "HTML, CSS, JS",
-    "imgUrl": "./images/avatar.jpg"
+    "imgUrl": "./images/wizard-form.png"
   }
 ]
