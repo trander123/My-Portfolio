@@ -1,40 +1,24 @@
 import { DarkMode, LightMode, Menu } from "@mui/icons-material";
-import { useState } from "react";
+import { handleToggleNavBar } from "../helpers/handleToggleNavBar";
 
-export const Header = () => {
-  const [isHidden, setIsHidden] = useState(false);
-  const [isDark, setIsDark] = useState(false);
-
-  const toggleTheme = () => {
-    isDark
-      ? document.body.classList.remove("dark")
-      : document.body.classList.add("dark");
-    setIsDark(!isDark);
-  };
-
-  const toggleNavBar = () => {
-    document.querySelector(".nav-bar").style.display = isHidden
-      ? "inline"
-      : "none";
-    setIsHidden(!isHidden);
-  };
+export const Header = ({ isDark, handleToggleTheme }) => {
   return (
-    <div className="flex justify-between w-full">
+    <div className="flex justify-between w-full ">
       <Menu
         fontSize="large"
         className=" cursor-pointer"
-        onClick={toggleNavBar}
+        onClick={handleToggleNavBar}
       />
       {isDark ? (
         <LightMode
           fontSize="large"
-          onClick={toggleTheme}
+          onClick={handleToggleTheme}
           className=" cursor-pointer"
         />
       ) : (
         <DarkMode
           fontSize="large"
-          onClick={toggleTheme}
+          onClick={handleToggleTheme}
           className=" cursor-pointer"
         />
       )}
