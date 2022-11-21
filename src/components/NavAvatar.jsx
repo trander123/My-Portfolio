@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export const NavAvatar = () => {
   return (
@@ -15,6 +16,11 @@ export const NavAvatar = () => {
         <span className=" font-light">FRONTEND WEB DEVELOPER</span>
         <span>+63-9065347560</span>
         <span>cuartzmico@gmail.com</span>
+        <span>
+          <a href="https://github.com/trander123">
+            <GitHubIcon />
+          </a>
+        </span>
       </div>
     </div>
   );

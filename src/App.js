@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { Header } from "./components/Header";
 import { Navbar } from "./components/Navbar";
@@ -9,6 +9,13 @@ function App() {
   const handleToggleTheme = () => {
     setIsDark((currVal) => !currVal);
   };
+
+  useEffect(() => {
+    alert(
+      "Site is under construction sorry for the inconvenience.\nBut here is latest commit."
+    );
+  }, []);
+
   return (
     <div className={`${isDark && "dark"}`}>
       <div className="flex dark:bg-zinc-900">
