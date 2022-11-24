@@ -8,10 +8,10 @@ import { Portfolio } from "./pages/Portfolio";
 export const Router = () => {
   return (
     <Routes>
-      <Route element={<Home />} path="/"></Route>
-      <Route element={<About />} path="/about"></Route>
-      <Route element={<Portfolio />} path="/portfolio"></Route>
-      <Route element={<Contact />} path="/contact"></Route>
+      <Route element={<Home />} path="/" />
+      <Route element={<About />} path="/about" />
+      <Route element={<Portfolio />} path="/portfolio" />
+      <Route element={<Contact />} path="/contact" />
     </Routes>
   );
 };

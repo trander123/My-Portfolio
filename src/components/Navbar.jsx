@@ -1,10 +1,15 @@
 import { BusinessCenter, Email, Home, Info } from "@mui/icons-material";
-import React from "react";
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { handleToggleNavBar } from "../helpers/handleToggleNavBar";
 import { NavAvatar } from "./NavAvatar";
 
 export const Navbar = () => {
+  useEffect(() => {
+    if (window.screen.width <= 640) {
+      document.querySelector(".nav-bar").style.display = "none";
+    }
+  });
   const handleToggleOnMobile = () => {
     if (window.screen.width <= 640) {
       handleToggleNavBar();
