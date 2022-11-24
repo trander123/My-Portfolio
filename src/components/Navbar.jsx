@@ -9,7 +9,7 @@ export const Navbar = () => {
     if (window.screen.width <= 640) {
       document.querySelector(".nav-bar").style.display = "none";
     }
-  });
+  }, []);
   const handleToggleOnMobile = () => {
     if (window.screen.width <= 640) {
       handleToggleNavBar();
