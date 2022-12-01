@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import datas from "../datas/porfolioData.json";
 
 export const Portfolio = () => {
+  const [projects, setProjects] = useState([])
+  useEffect(() => {
+    setProjects(datas)
+  },[])
   return (
     <div className="flex flex-col justify-center items-center">
       <span className=" text-2xl font-bold mb-5">My Projects</span>
       <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-5 justify-center mb-6 2xl:grid-cols-4">
-        {datas.map((project, index) => (
+        {projects.map((project, index) => (
           <div
             key={project.projName+index}
             className=" flex flex-col items-center px-4 py-6 bg-slate-200 rounded-md dark:bg-zinc-800 ease-in-out duration-150 hover:scale-105 max-w-xs"
