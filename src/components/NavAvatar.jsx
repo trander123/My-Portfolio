@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
 export const NavAvatar = () => {
   return (
@@ -19,6 +20,9 @@ export const NavAvatar = () => {
         <span>
           <a href="https://github.com/trander123">
             <GitHubIcon />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100070423729021">
+            <FacebookRoundedIcon />
           </a>
         </span>
       </div>

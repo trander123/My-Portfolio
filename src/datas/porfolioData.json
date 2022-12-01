@@ -1,14 +1,14 @@
 [
   {
     "projName": "TODO",
-    "description": "A responsive web app to add your todos mark them completed, remove or filter them depending on their status and can also clear all completed tasks.",
+    "description": "Add todo and display in the todo's list container. Can toggle mark if todo is done and be filtered by their respective status. Also clears all todo/s with completed status. Won't allow to add an empty todo.",
     "link": "",
-    "technologies": ["reactjs", "js", "tailwindcss"],
+    "technologies": ["react", "js", "tailwindcss"],
     "imgUrl": "./images/todo-app.png"
   },
   {
     "projName": "IP TRACKER",
-    "description": "Queries empty IP by default and API returns your own IP address and some other informations, longgitude, latitude, etc.",
+    "description": "By default API returns your own IP address and some other informations, longgitude, latitude, etc. And if search IP field is filled it will track ISP location of that searched IP value.",
     "link": "",
     "technologies": ["html", "css", "js"],
     "imgUrl": "./images/ip-tracker.png"
@@ -22,14 +22,14 @@
   },
   {
     "projName": "FORM WIZARD",
-    "description": "An insurance multi step form wizard with dynamic functionalities.",
+    "description": "An insurance multi step form wizard with dynamic functionalities. Auto update insurance prices onchange of age/package.",
     "link": "",
-    "technologies": ["reactjs", "js", "tailwindcss"],
+    "technologies": ["react", "js", "tailwindcss"],
     "imgUrl": "./images/wizard-form.png"
   },
   {
     "projName": "Credit Card",
-    "description": "A credit card with simple validations.",
+    "description": "A credit card with simple validations. It serves as a practice on css positioning for me way back then.",
     "link": "",
     "technologies": ["html", "css", "js"],
     "imgUrl": "./images/credit-card.png"
@@ -45,7 +45,21 @@
     "projName": "Sorting Articles",
     "description": "Sorts list of datas by upvotes or date and vice versa",
     "link": "",
-    "technologies": ["reactjs", "js"],
+    "technologies": ["react", "js"],
     "imgUrl": "./images/sorting-articles.png"
+  },
+  {
+    "projName": "Advice Generator",
+    "description": "Fetch advices from an API and display them.",
+    "link": "",
+    "technologies": ["html", "js", "css"],
+    "imgUrl": "./images/advice-generator.png"
+  },
+  {
+    "projName": "Countries w/ REST API",
+    "description": "Fetch countries from an API. Filters countries by region. Searches a certain country and display more details on click.",
+    "link": "",
+    "technologies": ["vite", "ts", "tailwindcss", "react"],
+    "imgUrl": "./images/countries-with-api.png"
   }
 ]

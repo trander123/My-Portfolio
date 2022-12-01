@@ -5,7 +5,7 @@ export const Portfolio = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <span className=" text-2xl font-bold mb-5">My Projects</span>
-      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-5 justify-center mb-6 ">
+      <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-5 justify-center mb-6 2xl:grid-cols-4">
         {datas.map((project, index) => (
           <div
             key={project.projName+index}
