@@ -14,10 +14,10 @@ function App() {
     <div className={`${isDark && "dark"}`}>
       <div className="flex dark:bg-zinc-900">
         <Navbar />
-        <div className="pt-2 px-4 w-full dark:text-white min-h-screen">
+        <main className="pt-2 px-4 w-full dark:text-white min-h-screen">
           <Header handleToggleTheme={handleToggleTheme} isDark={isDark} />
           <Router />
-        </div>
+        </main>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 
 export const NavAvatar = () => {
   return (
@@ -8,7 +8,7 @@ export const NavAvatar = () => {
       <img
         src="./images/avatar.jpg"
         alt=""
-        className=" w-48 h-48  rounded-full mb-2.5 sm:mb-5 object-cover"
+        className=" w-48 h-48  rounded-full mb-2.5 sm:mb-5 object-cover "
       />
       <div className="flex flex-col text-center text-lg">
         <span className=" text-2xl mb-5 sm:mb-10 font-bold">

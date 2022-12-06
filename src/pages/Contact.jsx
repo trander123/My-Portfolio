@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
+import { ContentWrapper } from "../wrappers/ContentWrapper";
 
 export const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
-}
+  return <ContentWrapper heading={"Contact"}></ContentWrapper>;
+};

@@ -1,9 +1,10 @@
-import datas from "../datas/porfolioData.json";
+import { ContentWrapper } from "../wrappers/ContentWrapper";
+import datas from "../constants/porfolio.json";
 
 export const Portfolio = () => {
+  const pageDescription = "Here are some of my projects.";
   return (
-    <div className="flex flex-col justify-center items-center">
-      <span className=" text-2xl font-bold mb-5">My Projects</span>
+    <ContentWrapper heading={"My Portfolio"} description={pageDescription}>
       <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-5 justify-center mb-6 2xl:grid-cols-4">
         {datas.map((project, index) => (
           <div
@@ -12,12 +13,15 @@ export const Portfolio = () => {
           >
             <img src={project.imgUrl} alt="" className=" w-full" />
             <div className="flex space-x-2 mt-4">
-              {project.technologies.map((techonology, index) => (
+              {project.technologies.map((technology, index) => (
                 <div
-                  key={techonology + index}
+                  key={technology + index}
                   className=" w-10 h-10 p-2 rounded-full bg-white dark:bg-zinc-900 flex justify-center items-center"
                 >
-                  <img src={`./icons/${techonology}-icon.png`} alt="" />
+                  <img
+                    src={`./icons/tech-icons/${technology}-icon.png`}
+                    alt=""
+                  />
                 </div>
               ))}
             </div>
@@ -28,6 +32,6 @@ export const Portfolio = () => {
           </div>
         ))}
       </div>
-    </div>
+    </ContentWrapper>
   );
 };
