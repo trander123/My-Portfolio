@@ -4,62 +4,71 @@
     "description": "Add todo and display in the todo's list container. Can toggle mark if todo is done and be filtered by their respective status. Also clears all todo/s with completed status. Won't allow to add an empty todo.",
     "link": "",
     "technologies": ["react", "js", "tailwindcss"],
-    "imgUrl": "./images/todo-app.png"
+    "imgUrl": "./images/todo-app.png",
+    "date": 1666454100000
   },
   {
     "projName": "IP TRACKER",
     "description": "By default API returns your own IP address and some other informations, longgitude, latitude, etc. And if search IP field is filled it will track ISP location of that searched IP value.",
     "link": "",
     "technologies": ["html", "css", "js"],
-    "imgUrl": "./images/ip-tracker.png"
+    "imgUrl": "./images/ip-tracker.png",
+    "date": 1667937660000
   },
   {
     "projName": "COUNTDOWN",
     "description": "A static countdown app. Possible update on making it a dynamic web app.",
     "link": "",
     "technologies": ["html", "css", "js"],
-    "imgUrl": "./images/countdown.png"
+    "imgUrl": "./images/countdown.png",
+    "date": 1666106880000
   },
   {
     "projName": "FORM WIZARD",
     "description": "An insurance multi step form wizard with dynamic functionalities. Auto update insurance prices onchange of age/package.",
     "link": "",
     "technologies": ["react", "js", "tailwindcss"],
-    "imgUrl": "./images/wizard-form.png"
+    "imgUrl": "./images/wizard-form.png",
+    "date": 1664998140000
   },
   {
     "projName": "Credit Card",
     "description": "A credit card with simple validations. It serves as a practice on css positioning for me way back then.",
     "link": "",
     "technologies": ["html", "css", "js"],
-    "imgUrl": "./images/credit-card.png"
+    "imgUrl": "./images/credit-card.png",
+    "date": 1665945600000
   },
   {
     "projName": "Anonymouse Landing Page",
     "description": "A simple Landing page to test my CSS skills way back then.",
     "link": "",
     "technologies": ["html", "css"],
-    "imgUrl": "./images/anon-landing-page.png"
+    "imgUrl": "./images/anon-landing-page.png",
+    "date": 1665949800000
   },
   {
     "projName": "Sorting Articles",
     "description": "Sorts list of datas by upvotes or date and vice versa",
     "link": "",
     "technologies": ["react", "js"],
-    "imgUrl": "./images/sorting-articles.png"
+    "imgUrl": "./images/sorting-articles.png",
+    "date": 1665257100000
   },
   {
     "projName": "Advice Generator",
     "description": "Fetch advices from an API and display them.",
     "link": "",
     "technologies": ["html", "js", "css"],
-    "imgUrl": "./images/advice-generator.png"
+    "imgUrl": "./images/advice-generator.png",
+    "date": 1669502160000
   },
   {
     "projName": "Countries w/ REST API",
     "description": "Fetch countries from an API. Filters countries by region. Searches a certain country and display more details on click.",
     "link": "",
     "technologies": ["vite", "ts", "tailwindcss", "react"],
-    "imgUrl": "./images/countries-with-api.png"
+    "imgUrl": "./images/countries-with-api.png",
+    "date": 1669912200000
   }
 ]
