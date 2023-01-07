@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
+import { PERSONAL_INFO } from "../constants/personalInfo";
 
 export const NavAvatar = () => {
   return (
@@ -13,12 +14,12 @@ export const NavAvatar = () => {
       />
       <div className="flex flex-col text-center text-lg">
         <span className=" text-2xl mb-5 sm:mb-10 font-bold">
-          Mico Gee M. Cuarto
+          {PERSONAL_INFO.name}
         </span>
-        <span className="font-light">FRONTEND WEB DEVELOPER</span>
-        <span>+63-9065347560</span>
+        <span className="font-light">{PERSONAL_INFO.track}</span>
+        <span>+63-{PERSONAL_INFO.phoneNum}</span>
         <span>
-          <a href="mailto:cuartzmico@gmail.com">cuartzmico@gmail.com</a>
+          <a href={`mailto:${PERSONAL_INFO.gmail}`}>{PERSONAL_INFO.gmail}</a>
         </span>
         <div className="space-x-2 mt-2">
           <a

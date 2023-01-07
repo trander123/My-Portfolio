@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Router } from "./Router";
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
   const handleToggleTheme = () => {
     setIsDark((currVal) => !currVal);
   };
