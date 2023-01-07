@@ -13,6 +13,7 @@ const initialState = {
 export function Contact() {
   const pageDescription = "Here's how you can get in touch with me.";
   const [toSend, setToSend] = useState(initialState);
+  const [isSent, setIsSent] = useState(false);
 
   const isMessageBtnDisabled =
     !toSend.from_name.trim() || !toSend.message.trim();
@@ -26,7 +27,8 @@ export function Contact() {
       EMAILJS_INFO.public_key
     )
       .then((response) => {
-        console.log("SUCCESS!", response.status, response.text);
+        setIsSent(true);
+        setToSend(initialState);
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -73,11 +75,14 @@ export function Contact() {
             <div>
               <button
                 type="submit"
-                className=" disabled:opacity-50 w-full bg-gradient-to-tl from-blue-700 via-blue-400 to-blue-700 dark:from-blue-900 dark:via-blue-600 dark:to-blue-900 text-white px-10 py-3 rounded-lg text-base font-bold tracking-wider mb-5"
+                className=" disabled:opacity-50 w-full bg-gradient-to-tl from-blue-700 via-blue-400 to-blue-700 dark:from-blue-900 dark:via-blue-600 dark:to-blue-900 text-white px-10 py-3 rounded-lg text-base font-bold tracking-wider mb-1"
                 disabled={isMessageBtnDisabled}
               >
                 Send Message
               </button>
+              <p className="text-xs text-green-600 dark:text-green-400">
+                {isSent && "Message sent!"}
+              </p>
             </div>
           </div>
         </form>
